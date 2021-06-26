@@ -280,3 +280,43 @@ body {
     outline: none;
     cursor: pointer;
 }
+
+.table_wrapper{
+    margin-top: 20px;
+    border-radius: 0px 0px 10px 10px;
+    filter: drop-shadow(0px 2px 8px #e9e9e9);
+    overflow: hidden;
+}
+.table_sort {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 110%;
+    color: #222222;
+    border-collapse: collapse;
+    
+    width: 100%;
+    height: 100%;
+}
+.table_sort thead tr {
+    height: 40px;
+    background-color: #ffffff;
+}
+.table_sort tbody tr:nth-child(odd) {
+    height: 60px;
+    background-color: #faf9f9;
+}
+.table_sort tbody tr:nth-child(even) {
+    height: 60px;
+
+    background-color: #ffffff;
+}
+.table_sort tbody tr th:last-child {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 110%;
+    color: #5a60e7;
+}
