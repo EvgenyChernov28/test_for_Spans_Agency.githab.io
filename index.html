@@ -10,6 +10,7 @@
 </head>
 
 <body>
+
     <header class="head_menu">
         <div class="head_menu__logo">
             <img src="./img/Logo.svg" alt="">
@@ -22,15 +23,15 @@
             <span class="head_menu__match_info_other">Ещё <img src="./img/arrow down.svg" alt=""></span>
         </div>
 
-        <div class="head_menu__user_ikons">
-            <span class="head_menu__user_ikons__stort">
+        <div class="head_menu__user_icons">
+            <span class="head_menu__user_icons__stort">
                 <img src="./img/football.svg" alt="">
                 <img src="./img/arrow down.svg" alt="">
             </span>
-            <span class="head_menu__user_ikons__user">
+            <span class="head_menu__user_icons__user">
                 <img src="./img/Ava.svg" alt="">
             </span>
-            <span class="head_menu__user_ikons__bag">
+            <span class="head_menu__user_icons__bag">
                 <img src="./img/bag.svg" alt="">
             </span>
         </div>
@@ -51,7 +52,7 @@
                 </span>
 
                 <span class="side_menu__user_info__edit">
-                    
+
                     <a href=""><img src="./img/edit.svg" alt="">Редактировать</a>
                 </span>
             </div>
@@ -114,28 +115,28 @@
                         <div class="central_menu_season_info_all">Все сезоны</div>
                         <div class="central_menu_season_info_current">Сезон 2020/21</div>
                     </div>
-                    <div>
+                    <div class="central_menu_season__info_detail">
                         <span>
-                            <div>Игры</div>
-                            <div>36</div>
+                            <div class="central_menu_season__info_detail_text">Игры</div>
+                            <div class="central_menu_season__info_detail_number">36</div>
                         </span>
                         <span>
-                            <div>Гол</div>
-                            <div>67</div>
+                            <div class="central_menu_season__info_detail_text">Гол</div>
+                            <div class="central_menu_season__info_detail_number">67</div>
                         </span>
                         <span>
-                            <div>Пас</div>
-                            <div>136</div>
+                            <div class="central_menu_season__info_detail_text">Пас</div>
+                            <div class="central_menu_season__info_detail_number">136</div>
                         </span>
                         <span>
-                            <div>гол+Пас</div>
-                            <div>136</div>
+                            <div class="central_menu_season__info_detail_text">Гол+Пас</div>
+                            <div class="central_menu_season__info_detail_number">136</div>
                         </span>
                     </div>
                 </div>
 
-                <div>
-                    <span>
+                <div class="central_menu__share">
+                    <span class="central_menu__share_icons">
                         <a href="">Поделиться</a>
                         <span>
                             <img src="./img/FB.svg" alt="">
@@ -143,13 +144,13 @@
                             <img src="./img/link.svg" alt="">
                         </span>
                     </span>
-                    <div>
-                        <img src="./img/Pattern.svg" alt="">
-                    </div>
+
                 </div>
             </div>
 
-            <input type="text">
+            <select class="central_menu__format">
+                <option>Формат</option>
+            </select>
 
             <table class="table_sort">
                 <thead>
@@ -206,11 +207,11 @@
                 </tbody>
             </table>
         </div>
-        
+
     </main>
 
 
-    
+
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {

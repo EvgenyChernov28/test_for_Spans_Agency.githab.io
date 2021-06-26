@@ -22,7 +22,7 @@ body {
     align-items: center;
 }
 
-.head_menu__user_ikons {
+.head_menu__user_icons {
     width: 280px;
     display: flex;
     justify-content: space-between;
@@ -80,10 +80,6 @@ body {
     font-weight: normal;
     font-size: 20px;
     line-height: 110%;
-    /* or 22px */
-
-    /* White */
-
     color: #ffffff;
 }
 
@@ -157,6 +153,7 @@ body {
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
+    height: 184px;
 }
 .achie {
     margin: 25px 20px;
@@ -180,7 +177,6 @@ body {
     box-sizing: border-box;
     border-radius: 5px;
     align-items: center;
-    
 }
 .central_menu_season_info_all {
     background: #5a60e7;
@@ -204,4 +200,83 @@ body {
     text-align: center;
     color: #acaff3;
     margin-left: 60px;
+}
+
+.central_menu_season__info_detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+.central_menu_season__info_detail span {
+    background: linear-gradient(
+            238.37deg,
+            rgba(90, 96, 231, 0.35) 6.34%,
+            rgba(30, 30, 40, 0) 103.77%
+        ),
+        #2c2c2c;
+    border-radius: 5px;
+    width: 90px;
+    height: 75px;
+}
+.central_menu_season__info_detail_text {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 110%;
+    color: #faf9f9;
+    margin: 10px 10px 0;
+}
+.central_menu_season__info_detail_number {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 140%;
+    text-align: right;
+    color: #ff795b;
+    margin: 0 10px 10px;
+}
+.central_menu__share {
+    background: center no-repeat url("./img/Pattern.svg");
+}
+.central_menu__share_icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 20px 80px 0 0;
+}
+.central_menu__share_icons a {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 110%;
+    color: #acaff3;
+    text-decoration: none;
+    margin-left: 8px;
+}
+
+.central_menu__format {
+    width: 170px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: none;
+
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #909090;
+    padding: 8px 10px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background: url("./img/arrow\ down.svg") no-repeat #fff;
+    background-position: right 10px top 60%;
+    outline: none;
+    cursor: pointer;
 }
